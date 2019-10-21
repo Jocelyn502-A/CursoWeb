@@ -1,0 +1,193 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #333333;
+}
+li {
+	margin-left: 150px;
+}
+p,li {
+	font-size: 20px;
+	color: #3399FF;
+}
+h1 {
+	font-size: 100px;
+	text-align: center;
+	background-color: teal;
+	color: #113322;
+}
+h2 {
+	font-size: 40px;
+	color: #009900;
+}
+h3,h4,h5,h6 {
+	font-size: 30px;
+	color: #009900;
+}
+.base {
+	margin-left: 18px;
+	margin: auto;
+}
+.personal {
+	padding: 15px;
+	text-align: center;
+	
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-left: 400px;
+	
+	height: 400px;
+	width: 600px;
+	
+	background-color: #334433;
+}
+.escolar {
+	padding: 10px;
+	text-align: center;
+	
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 50px;
+	
+	height: 150px;
+	width: 600px;
+	
+	background-color: #773333;
+}
+.dominan {
+	padding: 10px;
+	text-align: center;
+	
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 400px;
+	
+	height: 150px;
+	width: 900px;
+	
+	background-color: #773663;
+}
+.entretenimiento {
+	padding: 10px;
+	text-align: center;
+	
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 150px;
+	margin-bottom: 100px;
+	
+	height: 280px;
+	width: 600px;
+	
+	background-color: #556633;
+}
+.favoritos {
+	font-size: 20px;
+	text-align: center;
+
+	padding: 20px;
+	
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 400px;
+	margin-bottom: 20px;
+	
+	height: 850px;
+	width: 600px;
+	
+	background-color: #996993;
+}
+.noticias {
+	padding: 25px;
+	text-align: center;
+	
+	margin-top: 3	0px;
+	margin-right: 20px;
+	margin-left: 600px;
+	margin-bottom: 100px;
+	
+	height: 100px;
+	width: 230px; 
+	
+	background-color: #336963;
+}
+.basket{
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 50px;
+	margin-bottom: 100px;
+}
+.foot {
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 50px;
+	margin-bottom: 100px;
+}
+.volley {
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 50px;
+	margin-bottom: 100px;
+}
+li {
+	font-size: 25px;
+}
+a {
+	font-size: 30px;
+	color: #002255;
+}
+.pri {
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 50px;
+	margin-bottom: 40px;
+}
+.sec {
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 50px;
+	margin-bottom: 40px;
+}
+.ter {
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+.hobbit {
+	padding: 10px;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 50px;
+	height: 50px;
+	width: 500px;
+
+	background-color: #00FFAA;
+}
+.yo, .mulan {
+	padding: 10px;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 50px;
+	height: 50px;
+	width: 350px;
+
+	background-color: #00FFAA;
+}
+.boton {
+	display: block;         
+  	text-decoration: none; 
+  	color: #FFF;
+  	background-color: #597756; 
+  	font-weight: bold;
+  	padding: 20px;
+  	text-align: center;
+  	border: 5px solid #FFFFFF;
+  	border-radius: 10px;
+
+  	width: 200px;
+  	margin: 20px auto;
+}
