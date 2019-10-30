@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.todo {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.cuadro {
+	display: flex; 
+	justify-content:space-between;
+	align-items: center;
+	width: 900px;
+	height: 150px;
+	background-color: aquamarine;
+	flex-wrap: wrap;
+}
+.cuadro1 {
+	width: 250px;
+	height: 50px;
+	background-color: cadetblue;
+}
+.cuadro2 {
+	width: 250px;
+	height: 50px;
+	background-color: cadetblue;
+}
+.conjunto {
+	display: flex; 
+	justify-content:space-between;
+	align-items: center;
+	width: 900px;
+	height: 350px;
+	background-color: aquamarine;
+	flex-wrap: wrap;
+	}
+.rectangulo {
+	display: flex;
+	justify-content:space-around;
+	align-items: flex-end;
+	width: 700px;
+	height: 350px;
+	background-color: aqua;
+	flex-wrap: wrap;
+}
+.rec1 {
+	border: 3px solid #000000;
+	width: 100px;
+	height: 100px;
+	background-color: crimson;
+}
+.rec2 {
+	border: 3px solid #000000;
+	width: 100px;
+	height: 100px;
+	background-color: crimson;
+}
+.rec3 {
+	border: 3px solid #000000;
+	width: 100px;
+	height: 100px;
+	background-color: crimson;
+}
+.cuadrado {
+	display: flex;
+	justify-content:flex-start;
+	align-items: center;
+	width: 200px;
+	height: 350px;
+	background-color: dimgrey;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.cuad1 {
+	border: 3px solid #000000;
+	width: 100px;
+	height: 100px;
+	background-color: crimson;
+}
+.cuad2 {
+	border: 3px solid #000000;
+	width: 100px;
+	height: 100px;
+	background-color: crimson;
+}
+.cuad3 {
+	border: 3px solid #000000;
+	width: 100px;
+	height: 100px;
+	background-color: crimson;
+}
+.rectan {
+	display: flex;
+	justify-content:center;
+	align-items: flex-end;
+	width: 900px;
+	height: 100px;
+	background-color: steelblue;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.rectan1 {
+	border: 3px solid #000000;
+	width: 100px;
+	height: 100px;
+	background-color: crimson;
+}
+.rectan2 {
+	border: 3px solid #000000;
+	width: 100px;
+	height: 100px;
+	background-color: crimson;
+	background-color: crimson;
+}
