@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Horas</title>
+    <script type="text/javascript">
+        
+        var horas1 = +prompt("Ingresa las horas del primer instante de tiempo");
+        
+        var minutos1= +prompt("Ingresa los minutos del primer instante de tiempo");
+            
+        var segundos1= +prompt("Ingresa los segundos del primer instante de tiempo");
+
+        var hora1 = (horas1*3600)+(minutos1*60)+(segundos1);
+        
+        //alert("Primer instante de tiempo "+horas+":"+minutos+":"+segundos);
+
+        var horas2 = +prompt("Ingresa las horas del segundo instante de tiempo");
+        
+        var minutos2= +prompt("Ingresa los minutos del segundo instante de tiempo");
+            
+        var segundos2= +prompt("Ingresa los segundos del segundo instante de tiempo");
+            
+        var hora2 = (horas2*3600)+(minutos2*60)+(segundos2);
+
+        //alert("Segundo instante de tiempo "+horas2+":"+minutos2+":"+segundos2);
+        
+        var t;
+        if(hora1 > hora2){
+        	t=hora1 - hora2;
+        }
+        else {
+        	t=hora2 - hora1;
+        }
+        alert(t);
+
+        var hr=t/3600;
+        	hr=Math.trunc(hr);
+        //	alert(hr);
+            t=Math.abs(t-(3600*hr));
+		var min=t/60;
+			min=Math.trunc(min);
+		//	alert(min);
+            t=Math.abs(t-(60*min));
+        var seg=t;
+
+        alert("Tiempo entre los dos intervalos es "+hr+":"+min+":"+seg);
+
+    </script>
+   
+
+</head>
+<body>
+  
+</body>
+</html>
